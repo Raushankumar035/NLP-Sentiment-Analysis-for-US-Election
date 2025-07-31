@@ -1,0 +1,40 @@
+Natural Language Processing is a subfield of Artificial Intelligence that enables computers to understand, analyze, and manipulate human language. This article discusses the prediction of U.S. election results based on Sentiment Analysis using tweets.
+
+What is Sentiment Analysis?
+Sentiment analysis is a technique through which we can examine a text to figure out the sentiment such as the mood or mentality it represents. This technique is performed on textual data and classifies its sentiment as positive, negative, or neutral to assist businesses in tracking consumer needs and comprehending their needs accordingly.
+
+It is a powerful technique with significant business implications such as predicting election results. We can forecast the outcome of the U.S. election by examining the sentiment behind the significant number of tweets by the general public toward participating candidates in the U.S. election.
+
+Election Sentiment Analysis by Analyzing Tweets 
+Steps to be followed:
+Importing necessary libraries
+Loading datasets
+Data preprocessing
+Exploratory Data Analysis
+Sentiment Analysis
+Conclusion
+Dataset: US Election 2020 Tweets | Kaggle
+
+Dataset features:
+
+created_at: Date and time of tweet posted
+tweet_id: Tweet's unique ID
+tweet: Full tweet text
+likes: Number of likes
+retweet_count: Number of retweets
+source: Utility used to post the tweet
+user_id: User ID of tweet creator
+user_name: Username of tweet creator
+user_screen_name: Screen name of tweet creator
+user_description: Self-description by tweet creator
+user_join_date: Join date of tweet creator
+user_followers_count: Followers count on tweet creator
+user_location: Address was given on tweeter's profile
+lat: Latitude parsed from user_location
+long: Longitude parsed from user_location
+city: City parsed from user_location
+country: Country parsed from user_location
+state: State parsed from user_location
+state_code: State code parsed from user_location
+collected_at: Date and time tweet data was mined from Twitter
+Let's begin with the implementation.
